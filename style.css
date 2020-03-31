@@ -1,8 +1,4 @@
-img {
-    width: 30%;
-    float: left;
-    margin: 1.66%;
-}
+
 
 p {
     margin-left: 1.66%;
@@ -14,4 +10,19 @@ p {
     width: 30%;
     padding-bottom: 20px;
     opacity: .5;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.photo {
+    width: calc(33.3333333% - 20px);
+    margin: 1.66%;
+    margin-bottom: 20px;
+    margin: 10px;
+    flex: 1;
 }
